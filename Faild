@@ -1,0 +1,538 @@
+«============================================»
+«1. Старт»
+«2. Выбор Java и Cтарт»
+«3. Очистка и Старт»
+«Please choose a word [1,2 or 3]? »1
+«============================================»
+openjdk version "1.8.0_232"
+OpenJDK Runtime Environment (build 1.8.0_232-8u232-b09-0ubuntu1~16.04.1-b09)
+OpenJDK 64-Bit Server VM (build 25.232-b09, mixed mode)
+«============================================»
+including device/dexp/M245/vendorsetup.sh
+including device/generic/mini-emulator-arm64/vendorsetup.sh
+including device/generic/mini-emulator-armv7-a-neon/vendorsetup.sh
+including device/generic/mini-emulator-x86_64/vendorsetup.sh
+including device/generic/mini-emulator-x86/vendorsetup.sh
+including vendor/cm/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/cm/bash_completion/git.bash
+including vendor/cm/bash_completion/repo.bash
+including vendor/cm/vendorsetup.sh
+Trying dependencies-only mode on a non-existing device tree?
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=7.1.2
+LINEAGE_VERSION=14.1-20200126-UNOFFICIAL-M245
+TARGET_PRODUCT=lineage_M245
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a7
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.15.0-74-generic-x86_64-with-Ubuntu-16.04-xenial
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=NJH47F
+OUT_DIR=/home/andrey/LineageOS14.1/out
+WITH_SU=true
+============================================
+make: вход в каталог «/home/andrey/LineageOS14.1»
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=7.1.2
+LINEAGE_VERSION=14.1-20200126-UNOFFICIAL-M245
+TARGET_PRODUCT=lineage_M245
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a7
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.15.0-74-generic-x86_64-with-Ubuntu-16.04-xenial
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=NJH47F
+OUT_DIR=/home/andrey/LineageOS14.1/out
+WITH_SU=true
+============================================
+Checking build tools versions...
+find: «src/android»: Нет такого файла или каталога
+find: «src»: Нет такого файла или каталога
+find: «../commonutil/src»: Нет такого файла или каталога
+/bin/bash: строка 0: cd: cts/tests/libcore/ojluni/resources: Нет такого файла или каталога
+find: «../../libs/commonutil/src»: Нет такого файла или каталога
+find: «../../provider/java»: Нет такого файла или каталога
+frameworks/av/camera/cameraserver/Android.mk:18: Target has integrated cameraserver into mediaserver. This is weakening security measures introduced in 7.0
+find: «src/android/bluetooth/client/pbap»: Нет такого файла или каталога
+find: «/home/andrey/LineageOS14.1/out/target/common/obj/SHARED_LIBRARIES/libwifi-hal-mock_intermediates»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+find: «InCallUI/src-N»: Нет такого файла или каталога
+find: «../ContactsCommon/src-N»: Нет такого файла или каталога
+find: «../PhoneCommon/src-N»: Нет такого файла или каталога
+find: «InCallUI/src-N»: Нет такого файла или каталога
+find: «../ContactsCommon/src-N»: Нет такого файла или каталога
+find: «../PhoneCommon/src-N»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+find: «dummy»: Нет такого файла или каталога
+build/core/Makefile:34: предупреждение: переопределение способа для цели «/home/andrey/LineageOS14.1/out/target/product/M245/root/sbin/adbd»
+build/core/base_rules.mk:320: предупреждение: старый способ для цели «/home/andrey/LineageOS14.1/out/target/product/M245/root/sbin/adbd» игнорируются
+PRODUCT_COPY_FILES device/dexp/M245/prebuilt/system/bin/sysinit:system/bin/sysinit ignored.
+PRODUCT_COPY_FILES device/dexp/M245/prebuilt/system/etc/audio_effects.conf:system/etc/audio_effects.conf ignored.
+build/core/Makefile:34: предупреждение: переопределение способа для цели «/home/andrey/LineageOS14.1/out/target/product/M245/system/etc/media_codecs_ffmpeg.xml»
+build/core/base_rules.mk:320: предупреждение: старый способ для цели «/home/andrey/LineageOS14.1/out/target/product/M245/system/etc/media_codecs_ffmpeg.xml» игнорируются
+build/core/Makefile:34: предупреждение: переопределение способа для цели «/home/andrey/LineageOS14.1/out/target/product/M245/system/etc/wifi/wpa_supplicant.conf»
+build/core/base_rules.mk:320: предупреждение: старый способ для цели «/home/andrey/LineageOS14.1/out/target/product/M245/system/etc/wifi/wpa_supplicant.conf» игнорируются
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml ignored.
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml ignored.
+PRODUCT_COPY_FILES frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml ignored.
+PRODUCT_COPY_FILES device/dexp/M245/configs/media_profiles.xml:system/etc/media_profiles.xml ignored.
+PRODUCT_COPY_FILES device/dexp/M245/configs/media_codecs_performance.xml:system/etc/media_codecs_performance.xml ignored.
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes ;
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//LocApiBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//LocAdapterBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//ContextBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//LocDualContext.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//LBSProxyBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//UlpProxyBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//gps_extended_c.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//gps_extended.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//loc_core_log.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_core//LocAdapterProxyBase.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//LocEngAdapter.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng_xtra.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng_ni.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng_agps.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng_msg.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libloc_eng//loc_eng_log.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//loc_log.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//loc_cfg.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//log_util.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//linked_list.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//msg_q.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//MsgTask.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//LocHeap.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//LocThread.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//LocTimer.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//loc_target.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//loc_timer.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//LocSharedLock.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//platform_lib_includes.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//platform_lib_time.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//platform_lib_macros.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/gps.utils//loc_misc_utils.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/bits.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/config.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/debug.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/linkhash.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/arraylist.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_config.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_inttypes.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_util.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_object.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_tokener.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_object_iterator.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libjson/inc/json_c_version.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/NonCopyable.hpp
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/ErrorContext.hpp
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/Utility.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/convert.hpp
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/NonCopyable.hpp
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/ErrorContext.hpp
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/Utility.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/convert.hpp
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/SelectionCriterionInterface.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/ParameterHandle.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/parameter_export.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/parameter/ElementHandle.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/ParameterMgrLoggerForward.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/ParameterMgrPlatformConnector.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/ParameterMgrFullConnector.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/SelectionCriterionTypeInterface.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/SelectionCriterionInterface.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/ParameterHandle.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/parameter_export.h
+Header: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/include/parameter/ElementHandle.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libsonivox/eas.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libsonivox/eas_types.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libsonivox/eas_reverb.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libsonivox/jet.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libwpa_client/wpa_ctrl.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/libwpa_client/qca-vendor.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/media_resource_manager/MediaResourceArbitrator.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/media_resource_manager/OMX_adaptor.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-audio/audio_defs.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/color_metadata.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/copybit.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/copybit_priv.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/c2d2.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/gralloc_priv.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/gr.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/alloc_controller.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/memalloc.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/display_config.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/mdp_version.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/qdMetaData.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/IQService.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/qcom/display/IQClient.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Index.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/OMX_VideoExt.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/sdk/softap/include/qsap_api.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/sdk/softap/include/qsap.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/dataservices/rmnetctl/librmnetctl.h
+Header: /home/andrey/LineageOS14.1/out/target/product/M245/obj/include/time-services/time_genoff.h
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libhost_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/acp_intermediates/export_includes
+Notice file: external/compiler-rt/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libcompiler_rt-extras.a.txt
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/acp_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/acp_intermediates/export_includes ;
+Notice file: external/compiler-rt/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libcompiler_rt-extras.a.txt
+Notice file: external/compiler-rt/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib/libcompiler_rt-extras.a.txt
+Notice file: external/compiler-rt/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib64/libcompiler_rt-extras.a.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/mkbootfs_intermediates/export_includes
+Notice file: external/libcxx/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libc++.so.txt
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/mkbootfs_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/mkbootfs_intermediates/export_includes ;
+Notice file: external/libcxx/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libc++_static.a.txt
+Notice file: external/libcxx/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libc++_static.a.txt
+Notice file: system/core/libcutils/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libcutils.so.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/liblog.so.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/liblog.a.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/liblog.a.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib/liblog.a.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib64/liblog.a.txt
+Yacc: checkpolicy <= external/selinux/checkpolicy/policy_parse.y
+prebuilts/misc/linux-x86/bison/bison -d -v --defines=/home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.h -o /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.c external/selinux/checkpolicy/policy_parse.y
+Lex: checkpolicy <= external/selinux/checkpolicy/policy_scan.l
+Lex: checkpolicy <= external/selinux/libsepol/cil/src/cil_lexer.l
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libsepol_intermediates/import_includes
+m4: device/dexp/M245/sepolicy/mm-qcamerad.te: 1: deprecated: unix_socket_connect(mm-qcamerad, property, init) Please use set_prop(mm-qcamerad, <property name>) instead.
+Export includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/policy_parse.c -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkpolicy_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sepolicy-analyze_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sepolicy-analyze_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sepolicy-analyze_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/fc_sort_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/fc_sort_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/fc_sort_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/fc_sort_intermediates/export_includes ;
+Notice file: system/sepolicy/tools/fc_sort/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//bin/fc_sort.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkfc_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkfc_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkfc_intermediates/export_includes ;
+Notice file: external/libselinux/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libselinux.a.txt
+Notice file: external/libselinux/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libselinux.a.txt
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sefcontext_compile_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sefcontext_compile_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sefcontext_compile_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/sefcontext_compile_intermediates/export_includes ;
+Notice file: external/libselinux/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//bin/sefcontext_compile.txt
+Notice file: external/pcre/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libpcre.a.txt
+Notice file: external/pcre/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libpcre.a.txt
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/file_contexts.bin.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libdl_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libdl_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libdl_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libm_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libm_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libm_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libinit_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbootloader_message_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbootloader_message_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbootloader_message_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfs_mgr_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_rs_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_rs_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libfec_rs_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsquashfs_utils_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblogwrap_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcutils_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbase_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libutils_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libselinux_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblog_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++_static_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdl_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsparse_static_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libz_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libz_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libm_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libm_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libm_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcompiler_rt-extras_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_common_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libjemalloc_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_common_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_common_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libjemalloc_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libjemalloc_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_cxa_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_dns_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_cxa_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_cxa_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_dns_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_dns_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_malloc_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_malloc_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_malloc_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_pthread_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_pthread_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_pthread_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_aeabi_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_bionic_ndk_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_cxa_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_dns_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_freebsd_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_gdtoa_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_malloc_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_netbsd_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_openbsd_ndk_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_pthread_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_stack_protector_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_syscalls_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_tzcode_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libc++_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libcutils_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcutils_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext4_utils_static_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/liblog_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbase_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libbacktrace_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libbacktrace_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libbacktrace_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_init_static_intermediates/export_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_init_static_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_init_static_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc_init_static_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpackagelistparser_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpcre_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_static_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpackagelistparser_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpackagelistparser_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpcre_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpackagelistparser_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/liblog_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_blkid_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libext2_uuid_static_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++abi_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libc++abi_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdl_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsparse_static_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libz_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libunwind_llvm_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/init_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/init_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/init_intermediates/export_includes ;
+Notice file: system/core/init/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/init.txt
+Notice file: system/core/init/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libinit.a.txt
+Notice file: system/extras/libfec/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libfec.a.txt
+Notice file: external/fec/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libfec_rs.a.txt
+Notice file: system/extras/squashfs_utils/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libsquashfs_utils.a.txt
+Notice file: system/core/logwrapper/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/liblogwrap.a.txt
+Notice file: system/core/libcutils/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libcutils.a.txt
+Notice file: system/extras/ext4_utils/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libext4_utils_static.a.txt
+Notice file: system/core/libutils/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libutils.a.txt
+Notice file: bionic/libc/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libc.a.txt
+Notice file: external/libselinux/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libselinux.a.txt
+Notice file: system/core/liblog/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/liblog.a.txt
+Notice file: external/boringssl/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libcrypto_static.a.txt
+Notice file: external/libcxx/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libc++_static.a.txt
+Notice file: bionic/libdl/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libdl.a.txt
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libz.a.txt
+Notice file: external/libunwind_llvm/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libunwind_llvm.a.txt
+Notice file: bionic/libm/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libm.a.txt
+Notice file: external/compiler-rt/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libcompiler_rt-extras.a.txt
+Notice file: bionic/libc/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libc.so.txt
+Notice file: bionic/libc/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libc_common.a.txt
+Notice file: external/jemalloc/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libjemalloc.a.txt
+Notice file: bionic/libdl/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libdl.so.txt
+Notice file: bionic/libm/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libm.so.txt
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/property_contexts.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadbd_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadbd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadbd_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminijail_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminijail_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminijail_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadbd_intermediates/import_includes
+target Generated: libminijail_generated <= external/minijail/gen_syscalls.sh
+target Generated: libminijail_generated <= external/minijail/gen_constants.sh
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcap_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcap_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcap_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminijail_generated_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libcap_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/adbd_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/adbd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/adbd_intermediates/export_includes ;
+Notice file: system/core/adb/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/sbin/adbd.txt
+Notice file: system/core/adb/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libadbd.a.txt
+Notice file: external/minijail/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//system/lib/libminijail.a.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd.cm_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd.cm_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd.cm_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd_internal_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd_internal_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd_internal_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatterymonitor_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatterymonitor_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatterymonitor_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbinder_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbinder_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbinder_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminui_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminui_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libminui_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpng_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpng_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libpng_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsuspend_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsuspend_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsuspend_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libhealthd.cm_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libsuspend_intermediates/export_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatterymonitor_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libsuspend_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libsuspend_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbatteryservice_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libbinder_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadf_intermediates/export_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdrm_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadf_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadf_intermediates/export_includes ;
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdrm_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdrm_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libadf_intermediates/import_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libdrm_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libz_intermediates/export_includes
+Import includes file: /home/andrey/LineageOS14.1/out/target/product/M245/obj/STATIC_LIBRARIES/libsuspend_intermediates/import_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libz_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/SHARED_LIBRARIES/libz_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/healthd_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/healthd_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/target/product/M245/obj/EXECUTABLES/healthd_intermediates/export_includes ;
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkseapp_intermediates/export_includes
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/seapp_contexts.txt
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkseapp_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/checkseapp_intermediates/export_includes ;
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/selinux_version.txt
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/sepolicy.txt
+Notice file: system/sepolicy/NOTICE -- /home/andrey/LineageOS14.1/out/target/product/M245/obj/NOTICE_FILES/src//root/service_contexts.txt
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libz_intermediates/export_includes
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libz_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libz_intermediates/export_includes ;
+Import includes file: /home/andrey/LineageOS14.1/out/host/linux-x86/obj/STATIC_LIBRARIES/libz_intermediates/import_includes
+Export includes file: -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/minigzip_intermediates/export_includes
+Generated: (/home/andrey/LineageOS14.1/out/target/product/M245/android-info.txt)
+mv /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/minigzip_intermediates/export_includes.tmp /home/andrey/LineageOS14.1/out/host/linux-x86/obj/EXECUTABLES/minigzip_intermediates/export_includes ;
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//bin/minigzip.txt
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libz.a.txt
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libz.a.txt
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib/libz.a.txt
+make: *** Нет правила для сборки цели «/home/andrey/LineageOS14.1/out/host/linux-x86/bin/dtbToolCM», требуемой для «/home/andrey/LineageOS14.1/out/target/product/M245/dt.img».  Останов.
+make: *** Ожидание завершения заданий…
+Notice file: external/zlib/NOTICE -- /home/andrey/LineageOS14.1/out/host/windows-x86/obj/NOTICE_FILES/src//lib64/libz.a.txt
+make: выход из каталога «/home/andrey/LineageOS14.1»
+
+#### make failed to build some targets (03:52 (mm:ss)) ####
